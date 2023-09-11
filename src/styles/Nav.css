@@ -1,0 +1,39 @@
+.nav-wrapper{
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 5;
+    text-decoration: none;
+    background-color: #333333;
+}
+.inner-nav-wrapper{
+    max-width:1200;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+.home-link-color , .feed-link-color,.library-link-color,.link-color{
+    color:#CCCCCC;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    padding: 5px;
+    border-right: 2px solid #000;
+}
+.input-search{
+    width: 400px;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 7px;
+    border: none;
+}
+.try-next-proBtn{
+    color: #EF5500;
+}
+.searchBtn{
+    padding: 5px 10px;
+    cursor: pointer;
+}

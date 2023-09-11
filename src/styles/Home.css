@@ -1,0 +1,72 @@
+/* -------------Home ---------------*/
+.home{
+    background-color: #F2F2F2;
+}
+.home-container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    background: #fff;
+}
+.home-music-datas{
+    width: 950px;
+    max-width: 950px;
+    margin: 60px 10px 60px 0;
+    /* border: 1px solid red; */
+}
+.rightSidebar-details{
+    padding-left: 15px;
+    border-left: 1px solid #cccccc;
+    background: #fff;
+}
+
+/* ----------Music Slider -------- */
+/* Music Slider */
+.carousel-main{
+    padding: 20px 0;
+}
+.carousel-title{
+    font-weight: 350;
+    font-size: 24px;
+    color: #333333;
+}
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.slider{
+    display: flex;
+    /* border: 1px solid red; */
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    flex-shrink: 0;
+    /* border: 2px solid orange; */
+}
+
+.slider-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+    background:#ffffff;
+    color: #000;
+}
+
+.slider-btn.left {
+    left: 0;
+}
+
+.slider-btn.right {
+    right: 0;
+}
+/* music slider css */
+

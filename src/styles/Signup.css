@@ -1,0 +1,51 @@
+.signup_form{
+    
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.inner_signup_wrapper{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid red; */
+    background: #fff;
+    padding: 2.5rem 2rem;
+}
+.google_signup{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 16px;
+    height: 40px;
+    line-height: 18px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.inputbox_signup{
+    padding-top: 20px;
+}
+.inputbox_signup input{
+    width: 100%;
+    padding: 5px 15px;
+}
+.signup_continueBtn{
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #FF5500;
+    cursor: pointer;
+}
+.signup_contents{
+    font-size: 12px;
+    font-weight: 500;
+    color: #999999;
+}
+.privacy-policy-h{
+    color:#044DD2;
+}

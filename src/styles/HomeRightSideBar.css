@@ -1,0 +1,111 @@
+.home-rightsidebar-wrapper{
+    margin-top: 60px;
+    /* border: 1px solid black; */
+}
+.rightsidebar-headings{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc;
+    color: #999999;
+}
+.rightsidebar-headings h4{
+   font-size: 15px;
+}
+.rightsidebar-historyList{
+    height: 500px;
+    overflow-y: auto;
+    margin-bottom: 20px;   
+    /* border: 1px solid blue; */
+}
+.selectedDataDiv{
+    display:flex;
+    gap: 5px;
+    padding: 5px;
+}
+.selectedDataDiv-details{
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid red; */
+}
+.selectedDataDiv-details h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.rightsidebar-gomobile{
+    color: #999999;
+    font-size: 14px;
+    padding: 1rem 0 5px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #cccccc;
+}
+.rightsidebar-app-links{
+    /* border: 1px solid red; */
+}
+.rightsidebar-links-images{
+    padding: 15px 0;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    border-bottom: 1px solid #cccccc;
+    /* border: 1px solid red; */
+}
+.appleIconBox , .playStoreIconBox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+.appleicon{
+    width: 25px;
+    height: 25px;
+}
+.apple-details h6,.playstore-details h6{
+    font-size: 10px;
+}
+.apple-details h3{
+    font-size: 10px;
+}
+.playstore-details h3{
+    font-size: 10px;
+}
+.playstoreIcon{
+    height: 25px;
+    width: 30px;
+}
+.rightsidebar-descriptions{
+    padding-top: 10px;
+}
+.description-1 ,.description-2,.description-3{
+    display: flex;
+    font-size: 12px;
+    justify-content: start;
+    gap: 5px;
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.description-1 h5,.description-2 h5,.description-3 h5{
+    font-size: 12px;
+    color: #cccccc;
+}
+.description-1 h5:hover,.description-2 h5:hover,.description-3 h5:hover{
+    color: #000;
+}
+.description-3{
+    padding-top: 10px;
+}
+.description-3 :first-child{
+    color: #3388dd;
+}
+.description-3 :last-child{
+    color: #999999;
+}

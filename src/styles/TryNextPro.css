@@ -1,0 +1,177 @@
+/* {hero img try next} */
+.heroimgTryNext{
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/nextProHeroImg.png");
+    background-size: 100% 100%;
+}
+.trynextpro-container{
+    height: 100%;
+    padding: 13rem 50px ;
+    width: 60%;
+    margin: auto;
+}
+.logoSide{
+    display: flex;
+    justify-content: start;
+}
+.trynext-soundLogoImg{
+    width: 10%;
+}
+.trynext-soundLogoTitle{
+ display: flex;
+ flex-direction: column;   
+ justify-items: center;
+ justify-content: center;
+}
+
+.trynext-heading1{
+    font-size: 90px;
+    font-weight: 800;
+}
+.trynext-heading2{
+    padding-top: 10px;
+    font-size: 35px;
+}
+.trynext-heading5{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+.trynext-getStarted-Btn{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+.trynext-getStarted-Btn:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+.trynext-features-title{
+    display: flex;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+.trynext-features-title div img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.trynext-features-title div h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.available-plains-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.next-plain,
+.next-pro-plains {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+}
+
+.next-pro-plains{
+    border: 1px solid red;
+}
+.next-plain h1 , .next-pro-plains h1{
+    font-size: 52px;
+}
+.next-plain h2{
+    padding-bottom: 30px;
+}
+.next-plain button{
+    padding: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 35px 0;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+}
+.next-pro-descriptions :first-child{
+    font-size: 18px;
+}
+.free-descriptions p,.next-pro-descriptions p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.next-pro-price h3{
+    padding: 5px 0;
+}
+.next-pro-plains button{
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px 0;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.next-pro-plains button:hover{
+    color: lightslategray;
+}
+
+.available-plains , .compare-features{
+    font-size: 65px;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.right-tick{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    justify-items: center;
+    gap: 10px;
+}
+
+.table-compare{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+table, td, th {
+  padding: 10px 15px;
+  border-collapse: collapse;
+}
+th{
+    width: 350px;
+}
+.compare-feature-heading2 h1,
+.compare-feature-heading3 h1,
+.compare-feature-heading2 h4,
+.compare-feature-heading3 h4{
+    padding: 5px;
+}
+.compare-feature-heading2 button,
+.compare-feature-heading3 button{
+    width: 80%;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+}
+.compare-feature-heading2 button{
+    background-color: lightgray;
+}
+.compare-feature-heading3 button{
+    cursor: pointer;
+    background-color: #000;
+}
+.compare-feature-heading3 button:hover{
+    color: lightslategray;
+}
+.comapre-feature-table-col2,.comapre-feature-table-col3{
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #F3F3F3;
+}
